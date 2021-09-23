@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350sp"
+    android:layout_height="350sp"
+    android:orientation="vertical"
+    android:padding="16sp"
+    android:gravity="center_vertical"
+    tools:context=".SelectDateDialog"
+    android:layout_marginTop="50dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginBottom="25dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10sp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/eventname"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginBottom="10sp"
+            android:elevation="5sp"
+            android:hint="Event name"
+
+            android:inputType="text"
+            android:padding="16sp"
+            android:textStyle="italic" />
+
+
+        <EditText
+            android:id="@+id/eventDes"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="10sp"
+
+            android:elevation="5sp"
+            android:hint="Describe"
+            android:inputType="text"
+            android:padding="16sp"
+            android:textStyle="italic" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/setbtn"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="10sp"
+            android:backgroundTint="@color/color_primary"
+            android:elevation="5sp"
+            android:text="Set"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</LinearLayout>

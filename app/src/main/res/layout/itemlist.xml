@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200sp"
+    android:padding="7sp"
+    android:layout_height="wrap_content"
+    android:background="@color/color_primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:orientation="vertical"
+
+        android:layout_marginBottom="10sp"
+        android:elevation="5sp"
+        android:background="@color/color_primary"
+
+        >
+
+        <TextView
+            android:id="@+id/itemtitle"
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="sans-serif-light"
+            android:text=""
+            android:textAlignment="textStart"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/itemdes"
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="sans-serif-light"
+
+            android:text=""
+            android:textAlignment="textStart"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/itemdate"
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10sp"
+
+            android:background="@color/white"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="@color/purple"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>
